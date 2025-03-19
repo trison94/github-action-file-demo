@@ -7,7 +7,7 @@ on:
     - cron: '0 0 * * *' # Run every day at 00:00 UTC
 
 jobs:
-  run_pandas_josb:
+  run_pandas_jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
